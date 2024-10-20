@@ -1,34 +1,126 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Fidiya Zahirah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .project-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofolio Fidiya Zahirah</h1>
+        <nav>
+            <a href="#profil">Profil</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#proyek">Proyek</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
 
-## Getting Started
+    <div class="container">
+        <section id="profil" class="section">
+            <h2>Profil Diri</h2>
+            <p>Saya Fidiya Zahirah, siswa kelas 11 jurusan IPA di SMAN 1 Muara Batu. Saya sangat menyukai desain grafis dan menemukan kegembiraan dalam menggunakan Canva untuk menciptakan berbagai desain yang menarik. Saya percaya bahwa desain yang baik dapat menyampaikan pesan dengan jelas dan membuat kesan yang mendalam. Saya bersemangat untuk terus belajar dan mengembangkan keterampilan desain saya.</p>
+        </section>
 
-First, run the development server:
+        <section id="keahlian" class="section">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Desain Grafis menggunakan Canva</li>
+                <li>Kreativitas dalam menghasilkan ide-ide desain yang inovatif</li>
+                <li>Komunikasi Visual</li>
+                <li>Kemampuan bekerja dalam tim</li>
+                <li>Keterampilan manajemen waktu</li>
+            </ul>
+        </section>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+        <section id="proyek" class="section">
+            <h2>Proyek</h2>
+            <ul>
+                <li>
+                    <strong>Desain Poster Acara Sekolah</strong>: Mendesain poster untuk acara perpisahan sekolah dengan tema "Kenangan Indah". 
+                    <a class="project-link" href="link-ke-desain-poster" target="_blank">Lihat Poster</a>
+                </li>
+                <li>
+                    <strong>Infografis untuk Presentasi</strong>: Membuat infografis yang menggambarkan hasil survei siswa tentang kegiatan ekstrakurikuler. 
+                    <a class="project-link" href="link-ke-infografis" target="_blank">Lihat Infografis</a>
+                </li>
+                <li>
+                    <strong>Desain Konten Media Sosial</strong>: Mendesain konten visual untuk akun media sosial sekolah guna mempromosikan kegiatan siswa. 
+                    <a class="project-link" href="link-ke-konten-media-sosial" target="_blank">Lihat Konten</a>
+                </li>
+            </ul>
+        </section>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+        <section id="pendidikan" class="section">
+            <h2>Pendidikan</h2>
+            <p><strong>SMAN 1 Muara Batu</strong></p>
+            <p>Kelas 11 Jurusan IPA</p>
+            <ul>
+                <li>Mata Pelajaran Unggulan: Seni, Bahasa Indonesia, Bahasa Inggris</li>
+            </ul>
+        </section>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+        <section id="kontak" class="section">
+            <h2>Kontak</h2>
+            <p>Untuk pertanyaan lebih lanjut atau kolaborasi, silakan hubungi saya melalui email: [fibloxofficial@gmail.com]</p>
+        </section>
+    </div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    <footer>
+        <p>&copy; 2024 Fidiya Zahirah</p>
+    </footer>
